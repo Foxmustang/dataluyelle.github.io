@@ -1,0 +1,145 @@
+/*-- scss:defaults --*/
+
+// ── Typographie ───────────────────────────────────────────
+$font-family-sans-serif: "Inter", "Segoe UI", sans-serif;
+$font-family-monospace:  "Fira Code", "Courier New", monospace;
+$font-size-base:         1rem;      // 16px par défaut
+$line-height-base:       1.7;       // confort de lecture
+
+// ── Couleurs principales ───────────────────────────────────
+$primary:   #2c7be5;   // bleu — liens, boutons, accents
+$secondary: #6c757d;   // gris — texte secondaire
+$success:   #00b274;   // vert
+$body-bg:   #ffffff;   // fond de page
+$body-color:#212529;   // couleur du texte principal
+
+// ── Navbar ────────────────────────────────────────────────
+$navbar-bg:           #1a1a2e;   // fond navbar (sombre)
+$navbar-fg:           #ffffff;   // texte navbar
+$navbar-hl:           $primary;  // lien actif navbar
+
+
+/*-- scss:rules --*/
+
+// ── Google Fonts (optionnel) ───────────────────────────────
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+// ── Page générale ──────────────────────────────────────────
+body {
+  max-width: 860px;        // largeur max du contenu
+  margin: 0 auto;          // centré
+}
+
+// ── Titres ────────────────────────────────────────────────
+h1, h2, h3 {
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+h2 {
+  border-bottom: 2px solid $primary;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+// ── Liens ─────────────────────────────────────────────────
+a {
+  color: $primary;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    color: darken($primary, 10%);
+  }
+}
+
+// ── Page Home (about) ─────────────────────────────────────
+.quarto-about-jolla {
+  text-align: center;
+
+  img {
+    border-radius: 50%;      // photo de profil ronde
+    width: 160px;
+    border: 4px solid $primary;
+  }
+
+  .about-links {
+    margin-top: 1rem;
+    gap: 0.5rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+// ── Boutons ───────────────────────────────────────────────
+.btn-primary {
+  background-color: $primary;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 1rem;
+
+  &:hover {
+    background-color: darken($primary, 8%);
+  }
+}
+
+// ── Publications (research.qmd) ───────────────────────────
+.publication {
+  border-left: 3px solid $primary;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+
+  .pub-title   { font-weight: 600; }
+  .pub-authors { color: $secondary; font-size: 0.9rem; }
+  .pub-journal { font-style: italic; }
+}
+
+// ── CV ────────────────────────────────────────────────────
+.cv-section {
+  margin-bottom: 2rem;
+}
+
+.cv-entry {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+
+  .cv-date {
+    color: $secondary;
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+}
+
+// ── Tableaux ──────────────────────────────────────────────
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+
+  th {
+    background-color: $primary;
+    color: white;
+    padding: 0.5rem 1rem;
+  }
+
+  td {
+    padding: 0.4rem 1rem;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  tr:hover td {
+    background-color: #f5f8ff;
+  }
+}
+
+// ── Responsive mobile ─────────────────────────────────────
+@media (max-width: 768px) {
+  body        { padding: 0 1rem; }
+  h1          { font-size: 1.6rem; }
+
+  .cv-entry {
+    flex-direction: column;
+    .cv-date { margin-top: 0.2rem; }
+  }
+}

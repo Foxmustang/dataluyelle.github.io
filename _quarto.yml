@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Marguerite de La Tullaye"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/Foxmustang
+      - text: "🇫🇷 FR"
+        href: fr/index.qmd          # ← bouton de bascule vers le français
+
+  page-footer:
+    center: "© 2026 Marguerite de La Tullaye"
+
+format:
+  html:
+    theme: flatly                   # cosmo / darkly / journal…
+    css: assets/css/custom.scss
+    toc: true

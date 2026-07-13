@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Natural Language Processing\nComputer Vision\nBayesian Methods"
+  },
+  {
+    "objectID": "research.html#research-interests",
+    "href": "research.html#research-interests",
+    "title": "Research",
+    "section": "",
+    "text": "Natural Language Processing\nComputer Vision\nBayesian Methods"
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\n2024\nMy Great Paper Title\nJohn Doe, Jane Smith\nJournal of AI Research, vol. 12, pp. 1–20"
+  },
+  {
+    "objectID": "research.html#projects",
+    "href": "research.html#projects",
+    "title": "Research",
+    "section": "Projects",
+    "text": "Projects\n\nProject Alpha"
+  },
+  {
+    "objectID": "fr/research.html",
+    "href": "fr/research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Natural Language Processing\nComputer Vision\nBayesian Methods"
+  },
+  {
+    "objectID": "fr/research.html#research-interests",
+    "href": "fr/research.html#research-interests",
+    "title": "Research",
+    "section": "",
+    "text": "Natural Language Processing\nComputer Vision\nBayesian Methods"
+  },
+  {
+    "objectID": "fr/research.html#publications",
+    "href": "fr/research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\n2024\nMy Great Paper Title\nJohn Doe, Jane Smith\nJournal of AI Research, vol. 12, pp. 1–20"
+  },
+  {
+    "objectID": "fr/research.html#projects",
+    "href": "fr/research.html#projects",
+    "title": "Research",
+    "section": "Projects",
+    "text": "Projects\n\nProject Alpha"
+  },
+  {
+    "objectID": "fr/cv.html#education",
+    "href": "fr/cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\nPhD in Computer Science — XYZ University (2021 – present)\nThesis: “Title of my thesis”\nMSc in Data Science — ABC University (2019 – 2021)"
+  },
+  {
+    "objectID": "fr/cv.html#experience",
+    "href": "fr/cv.html#experience",
+    "title": "Curriculum Vitae",
+    "section": "Experience",
+    "text": "Experience\nResearch Intern — Google DeepMind (Summer 2023)\nDescription of what you did."
+  },
+  {
+    "objectID": "fr/cv.html#skills",
+    "href": "fr/cv.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "Skills",
+    "text": "Skills\n\n\n\nCategory\nTools\n\n\n\n\nLanguages\nPython, R, Julia\n\n\nFrameworks\nPyTorch, HuggingFace\n\n\nTools\nGit, Docker, Quarto"
+  },
+  {
+    "objectID": "fr/cv.html#publications",
+    "href": "fr/cv.html#publications",
+    "title": "Curriculum Vitae",
+    "section": "Publications",
+    "text": "Publications\nSee Research page."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\nPhD in Computer Science — XYZ University (2021 – present)\nThesis: “Title of my thesis”\nMSc in Data Science — ABC University (2019 – 2021)"
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "Curriculum Vitae",
+    "section": "Experience",
+    "text": "Experience\nResearch Intern — Google DeepMind (Summer 2023)\nDescription of what you did."
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "Skills",
+    "text": "Skills\n\n\n\nCategory\nTools\n\n\n\n\nLanguages\nPython, R, Julia\n\n\nFrameworks\nPyTorch, HuggingFace\n\n\nTools\nGit, Docker, Quarto"
+  },
+  {
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
+    "title": "Curriculum Vitae",
+    "section": "Publications",
+    "text": "Publications\nSee Research page."
+  },
+  {
+    "objectID": "fr/index.html",
+    "href": "fr/index.html",
+    "title": "Marguerite de La Tullaye",
+    "section": "",
+    "text": "Welcome to my personal website. I am a researcher at XYZ University, working on natural language processing and computer vision.\nFeel free to explore my research or download my CV."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Marguerite de La Tullaye",
+    "section": "",
+    "text": "Welcome to my personal website. I am a researcher at XYZ University, working on natural language processing and computer vision.\nFeel free to explore my research or download my CV."
+  }
+]

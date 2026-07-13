@@ -1,0 +1,22 @@
+---
+title: "Marguerite de La Tullaye"
+subtitle: "PhD Researcher"
+image: assets/img/profile.jpg
+about:
+  template: jolla          # trestles / solana / marquee / broadside
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/yourusername
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/yourusername
+    - icon: envelope
+      text: Email
+      href: mailto:marguerite.delatullaye@gmail.com
+---
+
+Welcome to my personal website. I am a researcher at **XYZ University**,
+working on natural language processing and computer vision.
+
+Feel free to explore my [research](research.qmd) or download my [CV](cv.qmd).

@@ -1,0 +1,29 @@
+---
+title: "Research"
+---
+
+## Research Interests
+
+- Natural Language Processing
+- Computer Vision
+- Bayesian Methods
+
+---
+
+## Publications
+
+### 2024
+
+**My Great Paper Title**  
+John Doe, Jane Smith  
+*Journal of AI Research*, vol. 12, pp. 1–20  
+<!-- [PDF](assets/papers/paper1.pdf) | [Code](https://github.com/...) | [DOI](#) -->
+
+---
+
+## Projects
+
+### Project Alpha
+<!-- ![](assets/img/project1.png)
+
+Short description of the project, methods used, and outcomes. -->

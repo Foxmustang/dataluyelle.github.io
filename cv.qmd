@@ -1,0 +1,37 @@
+---
+title: "Curriculum Vitae"
+---
+
+<!-- [Download PDF](assets/cv.pdf){.btn .btn-primary} -->
+
+---
+
+## Education
+
+**PhD in Computer Science** — XYZ University *(2021 – present)*  
+Thesis: *"Title of my thesis"*
+
+**MSc in Data Science** — ABC University *(2019 – 2021)*
+
+---
+
+## Experience
+
+**Research Intern** — Google DeepMind *(Summer 2023)*  
+Description of what you did.
+
+---
+
+## Skills
+
+| Category | Tools |
+|---|---|
+| Languages | Python, R, Julia |
+| Frameworks | PyTorch, HuggingFace |
+| Tools | Git, Docker, Quarto |
+
+---
+
+## Publications
+
+See [Research](research.qmd) page.
