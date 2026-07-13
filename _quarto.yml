@@ -17,6 +17,8 @@ website:
         href: https://github.com/Foxmustang
       - text: "🇫🇷 FR"
         href: fr/index.qmd          # ← bouton de bascule vers le français
+      - text: "🇬🇧 English"
+        href: index.qmd
 
   page-footer:
     center: "© 2026 Marguerite de La Tullaye"
