@@ -93,4 +93,8 @@ I chose to deploy this website through Quarto, which makes it easier to integrat
     <td><code>fr/</code></td>
     <td>Contains the French version of the site, mirroring the root structure.</td>
   </tr>
+  <tr>
+  <td><code>docs/.nojekyll</code></td>
+  <td>Tells GitHub Pages not to run Jekyll on <code>docs/</code>. Required for Quarto sites, as Jekyll would otherwise ignore folders starting with <code>_</code>.</td>
+</tr>
 </table>
